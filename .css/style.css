@@ -92,8 +92,25 @@ img{
     width: 100%;
     margin-bottom: 0.5rem;
 }
-
-
 footer{
     margin: 1rem;
+}
+
+/*media quary*/
+@media(max-width:700px){
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        background-color: red;
+    }
+    #first-card{
+        background-color: aqua;
+    }
+}
+@media(max-width:600px){
+    h2{
+        text-transform: uppercase;
+    }
 }
